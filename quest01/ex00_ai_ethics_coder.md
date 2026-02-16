@@ -59,7 +59,7 @@ print(palindrome_check("hello"))
 
 # Reflection
 ***What did you learn by struggling first?***
-struggling first gave a stronger mindset instead of just saying "AI give me the answer"as the saying goes muscle build memory, this approach to task helped to gained full understanding of the task and concept involved.
+struggling first gave a stronger mindset instead of just saying "AI give me the answer", struggling first strengthens cognitive retention and builds problem-solving endurance. as the saying goes muscle build memory, this approach to task helped to gained full understanding of the task and concept involved.
 
 ***How is your understanding different than if you'd just asked for the solution?***
 Using This appproach was not easy but it made me understoodthe complex task, breaking it down into small task and then solve, create psuedocode for your task and i try codin it it appear hard i try and try again untill i have done all edge cases, deburg and check for any trade offs or better approach.
@@ -68,4 +68,85 @@ Using This appproach was not easy but it made me understoodthe complex task, bre
 Due to the implementation of this approuch, i can write other similar function: write a psuedocode of task, understand how the algorithm work how each concept flow together then i try implementing my code if it fails, try again and try again, check all error, if any misssing edege case, until it works.
 
 ***What mental model did you build?***
-systematic thinking and Architecture, thinking in terms of systems and security and The use of AI as "code Review" rather "Q&A" and also a person who can fix the code when AI is offline
+systematic thinking and Architecture, thinking in terms of systems and The use of AI as "code Review" rather "Q&A" and also a person who can fix the code when AI is offline
+
+# modify my code to return position of failed index
+# function to check if input is palindrom
+
+def palindrome_check(input):
+    # create two pointer to compare charaacter from both end moving inward 
+    left_pointer = 0
+    right_pointer = len(input)-1
+
+    # while left_pointer < right_pointer
+    while left_pointer < right_pointer:
+        # skip if character in unput is not alphalnumeric
+        if not input[left_pointer].isalnum():
+            left_pointer += 1
+            continue  
+
+        elif not input[right_pointer].isalnum():
+            right_pointer -= 1
+            continue
+
+        # else compare character from both end in lower case
+        else:
+            if input[left_pointer].lower() != input[right_pointer].lower():
+                return {
+                    "is_palindrome":False,
+                    "left_index_mIsmatch":left_pointer,
+                    "char_left_index_mismatch":input[left_pointer],
+                    "char_right_index_mismatch":input[right_pointer]
+                }
+            left_pointer += 1
+            right_pointer -= 1
+    return {
+        "is_palindrome":True,
+        "Index_mismatch":None
+    }
+# reflection
+this code handles the expected constraints of this problem and work well, the program has a  linear time complexity of O(n) and space complexity O(1) 
+
+# The Fairness Contract
+
+# I will use AI when:
+
+    After I've attempted a problem for at least 20 minutes
+
+    To understand why my solution works/doesn't
+
+    To explore alternatives after I have a working solution
+
+    always solve similar task of any task given for deeper knowledge.
+
+# I will NOT use AI when:
+
+    I haven't tried the problem myself
+
+    I'm taking an assessment or test
+
+    I need to build fundamentals
+
+    [add your rules]
+
+    I know I'm using AI fairly when:
+
+    I can explain my code without looking at AI's response
+
+    I could solve similar problems without AI
+
+    I feel more confident in my abilities
+
+# rules
+   in terms of logic i will reprodruce any AI-generatednlogic without looking
+
+   if i get an AI explanations and rewrite it in my own word before using it 
+
+   i will use the 15 minutes rules by trying to fix the code cursing the frustrtion 
+
+   i will always try to explain my code to other as prove to my knowledge
+
+***Sign***
+Oduh Emmanuel Aba
+***Date***
+16 febuary 2026

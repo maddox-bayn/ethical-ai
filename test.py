@@ -5,6 +5,8 @@ def palindrome_check(input):
     left_pointer = 0
     right_pointer = len(input)-1
 
+    
+
     # while left_pointer < right_pointer
     while left_pointer < right_pointer:
         # skip if character in unput is not alphalnumeric
