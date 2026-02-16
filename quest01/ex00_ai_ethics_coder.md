@@ -115,7 +115,7 @@ this code handles the expected constraints of this problem and work well, the pr
 
     To understand why my solution works/doesn't
 
-    To explore alternatives after I have a working solution
+    i will use the 15 minutes rules by trying to fix the code cursing the frustrtion 
 
     always solve similar task of any task given for deeper knowledge.
 
@@ -127,9 +127,11 @@ this code handles the expected constraints of this problem and work well, the pr
 
     I need to build fundamentals
 
-    [add your rules]
+    immidiately i ecounter an error
 
-    I know I'm using AI fairly when:
+    when thinking in system
+
+#   I know I'm using AI fairly when:
 
     I can explain my code without looking at AI's response
 
@@ -137,16 +139,21 @@ this code handles the expected constraints of this problem and work well, the pr
 
     I feel more confident in my abilities
 
-# rules
-   in terms of logic i will reprodruce any AI-generatednlogic without looking
+    I can explain and rewrite it in my own word before using it 
 
-   if i get an AI explanations and rewrite it in my own word before using it 
+    i will always try to explain my code to other as prove to my knowledge
 
-   i will use the 15 minutes rules by trying to fix the code cursing the frustrtion 
-
-   i will always try to explain my code to other as prove to my knowledge
+    in terms of logic i will reprodruce any AI-generatednlogic without looking   
 
 ***Sign***
 Oduh Emmanuel Aba
 ***Date***
 16 febuary 2026
+
+# Real-World Scenario Analysis
+***Interview***: if i always rely on AI, and i was ask to implement a caching system i would not be able to implement a caching system during an interview or task
+
+***production bug at 2 AM***
+if i rely only on AI and don't fully understand my code i wuill not be able to the bug
+
+***New tech with little documentation:***
