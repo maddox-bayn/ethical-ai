@@ -30,3 +30,42 @@ FUNCTION palindrome_check(input)
         DECREMENT right_pointer
     RETURN true  
 END FUNCTION  
+# function to check if input is palindrom
+
+def palindrome_check(input):
+    # create two pointer to compare charaacter from both end moving inward 
+    left_pointer = 0
+    right_pointer = len(input)-1
+
+    # while left_pointer < right_pointer
+    while left_pointer < right_pointer:
+        # skip if character in unput is not alphalnumeric
+        if not input[left_pointer].isalnum():
+            left_pointer += 1
+        elif not input[right_pointer].isalnum():
+            right_pointer -= 1
+        # else compare character from both end in lower case
+        else:
+            if input[left_pointer].lower() != input[right_pointer].lower():
+                return False
+            left_pointer += 1
+            right_pointer -= 1
+    return True
+
+# Test Cases
+print(palindrome_check("")) 
+print(palindrome_check("A man a plan a canal Panama"))  
+print(palindrome_check("hello"))  
+
+# Reflection
+***What did you learn by struggling first?***
+struggling first gave a stronger mindset instead of just saying "AI give me the answer"as the saying goes muscle build memory, this approach to task helped to gained full understanding of the task and concept involved.
+
+***How is your understanding different than if you'd just asked for the solution?***
+Using This appproach was not easy but it made me understoodthe complex task, breaking it down into small task and then solve, create psuedocode for your task and i try codin it it appear hard i try and try again untill i have done all edge cases, deburg and check for any trade offs or better approach.
+
+***Can you now implement similar functions (reverse a string, find duplicates) without AI?***
+Due to the implementation of this approuch, i can write other similar function: write a psuedocode of task, understand how the algorithm work how each concept flow together then i try implementing my code if it fails, try again and try again, check all error, if any misssing edege case, until it works.
+
+***What mental model did you build?***
+systematic thinking and Architecture, thinking in terms of systems and security and The use of AI as "code Review" rather "Q&A" and also a person who can fix the code when AI is offline
