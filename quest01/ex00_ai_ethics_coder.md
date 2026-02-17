@@ -157,3 +157,19 @@ Oduh Emmanuel Aba
 if i rely only on AI and don't fully understand my code i wuill not be able to the bug
 
 ***New tech with little documentation:***
+when a new tech comes and i have not learned to read docs and experiment, i will be frustratinig for me to learn about the tech or i will not be able to know more abou it.
+
+# How does using AI fairly now prepare you for these scenarios?
+for new concept or tech i will nuture a habbit of reading and refrencing documentation, get full fundamental understanding about concept,usage, and also explain it to someone to confirm my understanding, so at any time i can re-define my code, can isolate variable,an work on any new tech, and can write my exam without the need of AI.
+
+# Building Irreplaceable Skills
+|skills                      |Rate          |improvement plan                                                                                               |
+|----------------------------|--------------|---------------------------------------------------------------------------------------------------------------|
+|Problem Decomposition 	     |3/5           |breaking larg, complex challenge into smaller, more manageable part, branch out realated ideas to process steps|
+|system thinkng              |3/5           |learn about workflow and how code or program work right, understand how system and large model works together  |
+|Debugging Mindset           |4/5           |hands on practice with systematic toubleshooooting techniqes, not just giving AI the error for but doing it    |
+|Conceptual Understanding    |4/5           |Reading more Programming Book(e.g structure and interpretation of computer programs), emphasizing fundamental understading|
+
+# 3 specific actions this week to improve it without outsourcing thinking to AI.
+This week on System Thinking learn more on how and why web request works: *Client, *DNS, *Server, *Database, *Response Build a tiny system: * input ----> Process ----> Store ----> Output (a Cli that save file that will make me think about the flow) Ask more system queston on any given task e.g (where would palindrome function live in real application, what call it, what handles errors)
+This week on problem decomposition, learn more on how to breake large complex model into small step and solve them gain full undertstanding of ehat actually matter.
