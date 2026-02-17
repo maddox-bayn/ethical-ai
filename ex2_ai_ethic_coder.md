@@ -17,3 +17,18 @@
 **Hidden assumptions**:The AI will find correlations that look like "logic" but are actually just "discrimination." For example, it might find that people who post in a certain language or live in a certain street default more often, leading to systemic exclusion of those groups.
 **proper_prompt_coontext**:draft a conceptual outline for a credit scoring algorithm. Use verification financial indicators like repayment history and dept-to-income ratio. Strictly execlude nonfinancial proxies like social medial activity or residential address to prevent geographic and cultural bias.
 ***Improvement**:i am manually removing "Proxies"(address/social medial) that lead to discriment
+
+# Test original vs. improved prompts with an LLM. Compare outputs: Did your changes work? What surprised you?
+After testing my AI my changes worked and i noticed that AI generate on the level of your context, content and structure of your prompt, i noticed in it reponce it said  based on what i mentioned not what i was thinking, some people think AI is surpose to know your thought because of how there write undetail prompt
+
+# AI critique on my prompt
+i  added language specification (python), a concrete goal, and a real edge case list. that's the most impactful kind of prompt improvement. the reasoning shows you were thinking adversarially about your own code, which is exactly the right instinct.
+
+# Reflection on prompt and exercise
+"Original: [ write a palindrome function for me.] Improved: [implement a a palindrome function in python that check if the reads the same backward and forward, it should handle the following edge cases, None input, Extremely long Unicode strings, Emojis, Strings with only punctuation Very large memory constraints, Multilingual case folding issues] My reasoning: [i tried to check  possible cases that my code will break] What ethical issues might I have missed How could this still go wrong"
+
+# If you'd asked AI to "write ethical prompts" from the start, would you understand why they're ethical?
+
+yes i would be able to write ethical prompts from the start, and yes i understand why prompt are ethical because prompt prove to be ethical due to it fairness and bias mitigation, accuracy and reliability, transparency and safty.
+# Can you now design ethical prompts without AI?
+yes due to the teaching of this project i now understand ethical prompt and how to write them
