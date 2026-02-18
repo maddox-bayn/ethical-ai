@@ -22,4 +22,7 @@ it can cause confusion in understanding and can lead to many incident like the A
 in this era of AI we advised to lean how how large language model work, so when you are to ask you know how to query you AI in propper way and also do more reserch along the way.
 
 # If you rely on AI to detect AI's problems, what's the flaw?
-rely on AI to detect AI'problem it will lead to more flaw like,Hallucinations
+rely on AI to detect AI'problem it will lead to more flaw like,Hallucinations, unfireness and bias 
+
+ # Which human skills remain essential?
+ the hamun that remain essential is ethical knowledge and discernment and also having a good contexual Nuance and knowledge of structure.
