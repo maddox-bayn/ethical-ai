@@ -5,13 +5,13 @@
 
 from this topic i learnt that wireless routing protocol are set of rule that determine how wireless devices discover, maintain path and send data between each other
 # DIfferaence between proactive  and reactive routing 
-proactive routing is also known as table driven it contain a table (database) in (MANETs) mobile ad hoc NETWORK that contain destination address, the next hop, the metric(cost per path), and sequence number, i  it it continousely maintaining updated node to all other node or maintaining an up-to-date map of the entire topology at all time while Reactive is also called on demand, the path are discoverge when needed
+proactive routing is also known as table driven it contain a table (database) in (MANETs) mobile ad hoc NETWORK that contain destination address, the next hop, the metric(cost per path), and sequence number, it continousely maintaining updated node to all other node or maintaining an up-to-date map of the entire topology at all time while Reactive is also called on demand, the path are discoverge when needed
 
 # simple scenario design (5–10 devices) with your justification.
 
 # QUESTION:8 wireless sensors in a field some move some are fixed,i ask myself if the device arely send data, should you use proactive or Reactive(answer: reactive) if then now justify "why", "what trade_offs?", "what happens if nodes move frequently", (ANSWER ARE BELOW)
  
-If i have 8 wireless sensors scattered across a field and they only blink into life to send data, you are looking at  a sparse, event-driven traffic pattern.in the scenario, sfficency is everything.
+If i have 8 wireless sensors scattered across a field and they only blink into life to send data, you are looking at  a sparse, event-driven traffic pattern.in th scenario, sfficency is everything.
 # why 
 In a proactive protocol (like DSDV or OLSR), every node constantly maintain a complete map of the network. if my 8 sensor only send data once every few hours, a proactive protocol spends 99% of its energy talking about routes that aren't being used.
 
