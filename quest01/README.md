@@ -37,6 +37,8 @@ Healthcare AI diagnostics
 # Learning Outcomes: What i Learned
 By completing this AI-ETHICS i have gained technical prociency in the following areas:
 
-1. Networking Strategy & Protocol Selection: ***contextual Logic:***there is no best protocol only the best protocol for a specific constriant. ***Trade-offs ANalysis:*** can justify the cost of latancy (in Reactive system) versus the cost of overhead (in proactive)
+* Networking Strategy & Protocol Selection: ***contextual Logic:***there is no best protocol only the best protocol for a specific constriant. ***Trade-offs ANalysis:*** can justify the cost of latancy (in Reactive system) versus the cost of overhead (in proactive)
 
-2. High-Mobility Management
+* High-Mobility Management: ***Link Stability:*** i explored how rapid moevment affect the network layer, leading to "ROute staleness.". ***Hybrid solution:*** act as amiddle ground, providing ultra-low latency for vehicles while maintaining scalability
+
+***Oduh Emmanuel***

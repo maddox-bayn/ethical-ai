@@ -41,7 +41,7 @@ In high-mobility environments, AODV often fails not because it can't find a rout
     Broadcast Storms: If multiple nodes move and break links simultaneously, every node starts "screaming" Route Requests (RREQ) at once. In a small 8-node field, this is okay, but in larger fields, this congests the entire frequency.
 
     The RERR Loop: AODV spends so much time sending Route Error (RERR) messages and restarting discoveries that the actual data packets stay stuck in the buffer until they time out.
-2. How does OLSRhandle tpoplogy changes:
+2. How does OLSR handle tpoplogy changes:
 OLSR: How it Handles Topology Changes
 
 OLSR (Optimized Link State Routing) is proactive. It doesn't wait for a problem; it tries to predict the map of the field constantly using MPRs (Multi-Point Relays).
