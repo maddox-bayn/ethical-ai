@@ -133,7 +133,7 @@ this code handles the expected constraints of this problem and work well, the pr
 
 
 
-# I will NOT use AI when:
+# I will NOT use AI when:..
 
     I haven't tried the problem myself
 
@@ -186,4 +186,4 @@ for new concept or tech i will nuture a habbit of reading and refrencing documen
 
 # 3 specific actions this week to improve it without outsourcing thinking to AI.
 This week on System Thinking learn more on how and why web request works: *Client, *DNS, *Server, *Database, *Response Build a tiny system: * input ----> Process ----> Store ----> Output (a Cli that save file that will make me think about the flow) Ask more system queston on any given task e.g (where would palindrome function live in real application, what call it, what handles errors)
-This week on problem decomposition, learn more on how to breake large complex model into small step and solve them gain full undertstanding of ehat actually matter.git 
+This week on problem decomposition, learn more on how to breake large complex model into small step and solve them gain full undertstanding of ehat actually matter.git
