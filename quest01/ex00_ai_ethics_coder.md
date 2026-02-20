@@ -31,7 +31,7 @@ FUNCTION palindrome_check(input)
     RETURN true  
 END FUNCTION  
 # function to check if input is palindrom
-
+```py
 def palindrome_check(input):
     # create two pointer to compare charaacter from both end moving inward 
     left_pointer = 0
@@ -57,7 +57,7 @@ print(palindrome_check(""))
 print(palindrome_check("A man a plan a canal Panama"))  
 print(palindrome_check("hello"))  
 # AI REVIEW AND FEEDBACK
-
+```
 ***The time complexity:*** is o(n), where n is the length of the string.
     Why: Each character is visited at most once by either the left_pointer or the right_pointer. Even though you have nested logic (the if/else), the pointers only ever move toward the center.
 ***Space Complexity:***This is the biggest advantage of your approach. You aren't creating a new reversed string or a list of filtered characters; you are only storing two integer pointers
@@ -82,7 +82,7 @@ systematic thinking and Architecture, thinking in terms of systems and The use o
 
 # modify my code to return position of failed index 
 # Alternative function to check if input is palindrom
-
+```py
 def palindrome_check(input):
     # create two pointer to compare charaacter from both end moving inward 
     left_pointer = 0
@@ -114,6 +114,7 @@ def palindrome_check(input):
         "is_palindrome":True,
         "Index_mismatch":None
     }
+```
 # reflection
 this code handles the expected constraints of this problem and work well, the program has a  linear time complexity of O(n) and space complexity O(1) 
 
