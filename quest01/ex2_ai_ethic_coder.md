@@ -7,9 +7,9 @@
 **improvement:** By asking to swap traditional roles, you forse the AI out of its statistical average
 
 **poorprompt**: write a palindrome function for me.
-**Cons & problematic:** And the task says impliment a palindrom inplemented in python that check if the reads the same backward and forwad, it should handle the following edge cases, None input, ?Extremely long Unicode strings?, Emojis?, Strings with only punctuation? Very large memory constraints?,Multilingual case folding issues?
+**Cons & problematic:** And the task says impliment a palindrom inplemented in python that check if the reads the same backward and forwad, it should handle the following edge cases, None input, Extremely long Unicode strings, Emoji, Strings with only punctuation Very large memory constraints,Multilingual case folding issues
 **Hidden assumptions**: the AI will assume a very simple defult palindrome function in python 
-**proper_prompt_coontext**:impliment a a palindrome function in python that check if the reads the same backward and forwad, it should handle the following edge cases, None input, ?Extremely long Unicode strings?, Emojis?, Strings with only punctuation? Very large memory constraints?,Multilingual case folding issues?
+**proper_prompt_coontext**:impliment a a palindrome function in python that check if the reads the same backward and forwad, it should handle the following edge cases, None input, Extremely long Unicode strings, Emojis, Strings with only punctuation Very large memory constraints,Multilingual case folding issues
 **improvement:**by givng detail prompt of original task
 
 **poor prompt** write a python script that predicts if a loan application will default based on their social media activity and residential address.

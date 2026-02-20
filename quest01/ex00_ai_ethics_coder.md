@@ -56,6 +56,16 @@ def palindrome_check(input):
 print(palindrome_check("")) 
 print(palindrome_check("A man a plan a canal Panama"))  
 print(palindrome_check("hello"))  
+# AI REVIEW AND FEEDBACK
+
+***The time complexity:*** is o(n), where n is the length of the string.
+    Why: Each character is visited at most once by either the left_pointer or the right_pointer. Even though you have nested logic (the if/else), the pointers only ever move toward the center.
+***Space Complexity:***This is the biggest advantage of your approach. You aren't creating a new reversed string or a list of filtered characters; you are only storing two integer pointers
+***Edge Cases to Consider:*** The Empty String, Single Character / Single Alphanumeric: "a" or "a!" will return True., No Alphanumeric Characters: A string like "!!! --- ???" will finish the loop and return True, 
+***Trade-offs:*** use case will returning a comperison  of the input and direct reverse of it which create extra variable in memory causing an O(n) space complexity 
+***Performance on Very Long StringsMemory Efficiency:*** Because it'sspace, you can process a string that takes up 90% of your RAM without triggering a "Memory Error."
+**Early Exit:** Your code returns False the instant it finds a mismatch. If the first and last letters are "A" and "Z", your code stops immediately. The "One-Liner" approach above would still filter the entire string and reverse it before realizing it's not a palindrome.
+**Cache Friendliness:** Modern CPUs are very good at predicting linear memory access (moving pointers inward), making this very fast at the hardware level.
 
 # Reflection
 ***What did you learn by struggling first?***
@@ -70,8 +80,8 @@ Due to the implementation of this approuch, i can write other similar function: 
 ***What mental model did you build?***
 systematic thinking and Architecture, thinking in terms of systems and The use of AI as "code Review" rather "Q&A" and also a person who can fix the code when AI is offline
 
-# modify my code to return position of failed index
-# function to check if input is palindrom
+# modify my code to return position of failed index 
+# Alternative function to check if input is palindrom
 
 def palindrome_check(input):
     # create two pointer to compare charaacter from both end moving inward 
@@ -115,9 +125,13 @@ this code handles the expected constraints of this problem and work well, the pr
 
     To understand why my solution works/doesn't
 
+    To explore alternatives after I have a working solution
+
     i will use the 15 minutes rules by trying to fix the code cursing the frustrtion 
 
-    always solve similar task of any task given for deeper knowledge.
+    always  have solved similar task of any task given for deeper knowledge.
+
+
 
 # I will NOT use AI when:
 
